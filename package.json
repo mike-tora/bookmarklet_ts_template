@@ -6,6 +6,7 @@
   "author": "mike_tora <mike.tora.buchi.hachi@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/webpack": "^4.41.7",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
     "eslint": "^6.8.0",
@@ -21,8 +22,12 @@
     "gulp-replace": "^1.0.0",
     "gulp-typescript": "^6.0.0-alpha.1",
     "gulp-uglify": "^3.0.2",
+    "gulp-webpack": "^1.5.0",
+    "ts-loader": "^6.2.1",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3",
-    "typescript-require": "^0.2.10"
+    "typescript-require": "^0.2.10",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   }
 }
